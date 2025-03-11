@@ -1,1 +1,18 @@
-<meta http-equiv="refresh" content="0;url=http://t.qmynet.com">
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>随机跳转</title>
+    <script>
+        // 生成 1 到 10 之间的随机数字
+        var randomNum = Math.floor(Math.random() * 10) + 1;
+        var targetUrl = "http://" + randomNum + ".qmynet.com";
+        
+        // 立即跳转
+        window.location.replace(targetUrl);
+    </script>
+</head>
+<body>
+</body>
+</html>
